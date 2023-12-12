@@ -33,7 +33,7 @@
 
 .card--title{
     font-size: var(--body-lg);
-    font-weight: bold;
+    font-weight: normal;
     color: var(--neutral-500)
 }
 
