@@ -1,0 +1,43 @@
+@import "./common/variables.css";
+
+.card {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    color: var(--neutral-500);
+    width: 320px;
+    position: absolute; 
+    border-radius: 5%;
+    border: var(--neutral-50) 1px solid;
+}
+
+.card--head {
+    border-radius: 5%;
+}
+
+.card--head--image {
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.card--body {
+    padding: 0 3%;
+}
+
+.card--body--footer {
+    padding: 4% 0;
+    display:flex;
+    justify-content:space-around;
+}
+
+.card--title{
+    font-size: var(--body-lg);
+    font-weight: bold;
+    color: var(--neutral-500)
+}
+
+.card--desc {
+    color: var(--neutral-500)
+
+}

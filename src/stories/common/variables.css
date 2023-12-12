@@ -1,0 +1,16 @@
+:root {
+    /* colors **/ 
+
+    --neutral-500: #37424d;
+    --neutral-100: #647387;
+    --neutral-50: #CFD7DE;
+    --blue-100: #657786;
+    --blue-500: #003f5d;
+    --black: #000000;
+    --white: #ffffff;
+
+    /* typography **/ 
+    --body-sm: 0.875rem;
+    --body-md: 1rem;
+    --body-lg: 1.125rem; 
+}

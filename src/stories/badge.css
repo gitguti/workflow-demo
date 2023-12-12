@@ -1,0 +1,25 @@
+@import './common/variables.css';
+
+.badge {
+    font-family: Inter;
+    font-size: var(--body-md);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 1rem;
+    color: white;
+}
+
+.badge--lightBlue {
+    background-color: var(--blue-100);
+  }
+.badge--darkBlue {
+    background-color: var(--blue-500);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: capitalize;
+}
