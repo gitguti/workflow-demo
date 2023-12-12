@@ -1,0 +1,19 @@
+@import './common/variables.css';
+
+.badge-icon-number {
+    font-family: Inter;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 16px;
+    font-size: var(--body-sm);
+  }
+  
+  .badge-icon {
+    margin-right: 8px;
+  }
+  
+  .badge.people, .badge.ideas, .badge.views {
+    color: var(--neutral-500)
+  }
+  
